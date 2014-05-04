@@ -146,7 +146,7 @@ input[type="checkbox"] {
 #main {
 	position: relative;
 	z-index: 2;
-	/*border-top: 1px dotted #adadad;*/
+	border-top: 1px dotted #adadad;
 }
 
 label[for='toggle-all'] {
