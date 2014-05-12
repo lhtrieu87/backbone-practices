@@ -1,0 +1,19 @@
+{
+    "name": "component1",
+    "version": "0.0.1",
+    "main": "component1.js",
+    "ignore": [
+        "bower_components",
+        "test",
+        "build"
+    ],
+    "dependencies": {
+        "jquery": "latest",
+        "backbone-amd": "latest",
+        "underscore-amd": "latest",
+        "requirejs-tpl": "latest"
+    },
+    "devDependencies": {
+        "requirejs": "latest"
+    }
+}
