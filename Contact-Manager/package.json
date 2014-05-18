@@ -1,31 +1,22 @@
 {
-  "name": "contact-manager",
-  "version": "0.1.0",
-  "private": true,
-  "author": "Trieu",
-  "description": "description",
-  "contributors": [
-    {
-      "name": "Trieu",
-      "url": "https://example.com",
-      "email": "you@example.com"
-    }
-  ],
-  "scripts": {
-    "test": "grunt test"
-  },
-  "dependencies": {},
   "devDependencies": {
-    "mocha": "~1.13.0",
-    "mocha-phantomjs": "~3.1.5",
-    "phantomjs": "~1.9.2",
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-shell": "~0.5.0",
-    "grunt-nodemon": "0.1.1",
-    "grunt-contrib-jshint": "~0.7.0",
-    "grunt-contrib-connect": "~0.5.0"
-  }
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-compress": "latest",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-processhtml": "latest",
+    "grunt-karma": "latest",
+    "grunt-karma-coveralls": "latest",
+    "karma-jasmine": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-coverage": "latest"
+  },
+  "scripts": {
+    "test": "grunt test coveralls"
+  },
+  "name": "contact-manager",
+  "version": "0.1.0"
 }
