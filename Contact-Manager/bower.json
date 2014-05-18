@@ -1,0 +1,13 @@
+{
+  "name": "contact-manager",
+  "version": "0.1.0",
+  "dependencies": {
+    "html5-boilerplate": "latest",
+    "almond": "latest",
+    "underscore": "latest",
+    "backbone": "latest",
+    "jquery": "latest",
+    "requirejs": "latest",
+    "jasmine": "latest"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-compress": "latest",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-processhtml": "latest",
+    "grunt-karma": "latest",
+    "grunt-karma-coveralls": "latest",
+    "karma-jasmine": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-coverage": "latest"
+  },
+  "scripts": {
+    "test": "grunt test coveralls"
+  },
+  "name": "contact-manager",
+  "version": "0.1.0"
+}
