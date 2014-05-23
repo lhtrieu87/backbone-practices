@@ -2,11 +2,13 @@
   "name": "contact-manager",
   "version": "0.1.0",
   "dependencies": {
-    "html5-boilerplate": "latest",
-    "almond": "latest",
     "underscore": "latest",
+    "underscore.string": "~2.3.3",
     "backbone": "latest",
     "jquery": "latest",
+    "almond": "latest"
+  },
+  "devDependencies": {
     "requirejs": "latest",
     "jasmine": "latest"
   }
