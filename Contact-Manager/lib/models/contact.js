@@ -1,9 +1,11 @@
+'user strict';
+
 define(['backbone', 'underscore', 'underscore.string'], function (Backbone, _) {
   var Contact = Backbone.Model.extend({
     defaults: {
-      firstName: "",
-      lastName: "",
-      phoneNumber: ""
+      firstName: '',
+      lastName: '',
+      phoneNumber: ''
     },
 
     validate: function (attrs, options) {
